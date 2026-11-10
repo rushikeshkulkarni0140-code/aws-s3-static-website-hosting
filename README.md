@@ -113,23 +113,45 @@ Creating the bucket took less than 10 seconds. AWS provisioned the storage space
 
 ![Upload Website Files to S3](https://nextwork.ai/rushikesh-kulkarni/uploads/70e2d059-31ab-5f67-8c58-f5edbd451140_a265af88)
 
-## Static Website Hosting on S3
+## Static Website Hosting on S3.
 
-### What I did in this step
+### What I Did in This Step.
 
-In this step, I will enable static website hosting on my Amazon S3 bucket and set index.html as my index document. I am doing this to convert my S3 storage bucket into a web server that can generate a unique public endpoint URL for visitors to access my portfolio website.
+• Enabled static website hosting on my Amazon S3 bucket.
 
-### Understanding website hosting
+• Set `index.html` as my index document.
 
-Website hosting means storing your website's files—like HTML documents, CSS files, images, and other assets—on a secure web server connected to the internet. This allows anyone around the world to access and view your website by entering its web address into a browser.
+• Configured my S3 bucket to generate a public website endpoint URL so visitors can access my portfolio website.
 
-### How I enabled website hosting
+### Understanding Website Hosting.
 
-I enabled hosting by opening my Amazon S3 bucket in the AWS Console, navigating to the Properties tab, and scrolling down to the Static website hosting section. I clicked Edit, selected Enable, specified index.html as the index document, and saved my changes.
+Website hosting means storing your website's files, such as HTML documents, CSS files, images, and other assets, on a web server connected to the internet.
 
-### Access Control Lists (ACLs)
+• Allows visitors around the world to access my website.
 
-An Access Control List (ACL) is a set of rules that defines who has permission to access and manage files inside an S3 bucket. In this step, I enabled ACLs so that I can control access permissions for my individual website files and make them publicly accessible to visitors.
+• Enables users to view my website by entering its web address into a browser.
+
+### How I Enabled Website Hosting.
+
+• Opened my Amazon S3 bucket in the AWS Management Console.
+
+• Navigated to the **Properties** tab.
+
+• Scrolled down to the **Static website hosting** section.
+
+• Clicked **Edit** and selected **Enable**.
+
+• Specified `index.html` as the index document.
+
+• Saved my changes to enable static website hosting.
+
+### Access Control Lists (ACLs).
+
+An Access Control List (ACL) is a set of rules that defines who has permission to access and manage files inside an S3 bucket.
+
+• Enabled ACLs to manage access permissions for individual website files.
+
+• Used object-level permissions to make my website files publicly accessible to visitors.
 
 ![Static Website Hosting on S3](https://nextwork.ai/rushikesh-kulkarni/uploads/70e2d059-31ab-5f67-8c58-f5edbd451140_c22c54c0)
 
