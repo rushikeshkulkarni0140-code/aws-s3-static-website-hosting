@@ -87,19 +87,29 @@ Creating the bucket took less than 10 seconds. AWS provisioned the storage space
 
 ![How I Set Up an S3 Bucket](https://nextwork.ai/rushikesh-kulkarni/uploads/70e2d059-31ab-5f67-8c58-f5edbd451140_ba6d42ad)
 
-## Upload Website Files to S3
+## Upload Website Files to S3.
 
-### What I did in this step
+### What I Did in This Step.
 
-In this step, I will download the index.html file and the website's image files to my local computer, and then upload them into my Amazon S3 bucket. I am doing this to store all of my website's content files in the cloud so they can be loaded by visitors.
+• Downloaded the `index.html` file and the website's image files to my local computer.
 
-### Files I uploaded
+• Uploaded the website files into my Amazon S3 bucket.
 
-I uploaded the index.html file (the structural blueprint of my webpage) and the unzipped assets folder containing the images and media files for my rushikesh-cloud-portfolio-2026 portfolio website.
+• Stored all the website content files in cloud storage so they can be accessed by visitors.
 
-### How the files work together
+### Files I Uploaded.
 
-The index.html file provides the core structure and code of the webpage, while the assets folder contains the images and files that the HTML code references. You need both because the HTML file cannot display your portfolio images or layout correctly if those referenced asset files are missing from the S3 bucket.
+• **index.html:** Uploaded the main HTML file, which provides the structural blueprint of my webpage.
+
+• **Assets Folder:** Uploaded the unzipped assets folder containing images and media files for my `rushikesh-cloud-portfolio-2026` portfolio website.
+
+### How the Files Work Together.
+
+• **index.html:** Provides the core structure and code of the webpage.
+
+• **Assets Folder:** Contains the images and other files referenced by the HTML code.
+
+• **Why Both Are Needed:** Both the HTML file and the assets folder are required because the webpage cannot display its portfolio images and other referenced content correctly if the required asset files are missing from the S3 bucket.
 
 ![Upload Website Files to S3](https://nextwork.ai/rushikesh-kulkarni/uploads/70e2d059-31ab-5f67-8c58-f5edbd451140_a265af88)
 
