@@ -22,9 +22,6 @@ S3 Bucket Policies: Writing JSON policies to enforce advanced security rules, su
 
 It took me approximately 30 to 45 minutes to complete this entire project. During this time, I successfully created an S3 bucket, uploaded my website files, enabled static website hosting, resolved the 403 Forbidden error using ACLs, and configured a custom JSON bucket policy for the secret security mission.
 
-### ❤️ Thanks for doing this project!
-
-Honestly, I love it! I feel so happy and filled with gratification after completing this project. Thanks to NextWork, my learning journey has been amazing, and hats off to the team for making this platform so fun and rewarding❤️.
 
 ## How I Set Up an S3 Bucket
 
@@ -122,9 +119,6 @@ S3 Bucket Policies: Writing JSON policies to implement granular security rules, 
 
 It took me approximately 30 to 45 minutes to complete this entire project. This time was spent creating and configuring the Amazon S3 bucket, downloading and uploading my portfolio files, enabling static website hosting, resolving the 403 Forbidden error, and writing a custom JSON bucket policy for the secret mission.
 
-### ❤️ Thanks for doing this project!
-
-Honestly, I love it! It is already an amazing platform and makes me feel so happy and excited to learn. Keeping the interactive challenges, secret missions, and fast-paced guides coming is exactly what will make it even better!
 
 ![Success!](https://nextwork.ai/rushikesh-kulkarni/uploads/70e2d059-31ab-5f67-8c58-f5edbd451140_5d4474f9)
 
