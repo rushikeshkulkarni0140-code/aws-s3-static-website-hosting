@@ -155,15 +155,27 @@ An Access Control List (ACL) is a set of rules that defines who has permission t
 
 ![Static Website Hosting on S3](https://nextwork.ai/rushikesh-kulkarni/uploads/70e2d059-31ab-5f67-8c58-f5edbd451140_c22c54c0)
 
-## Bucket Endpoints
+## Bucket Endpoints.
 
-### Understanding bucket endpoint URLs
+### Understanding Bucket Endpoint URLs.
 
-When I first visited the bucket endpoint URL, I saw a 403 Forbidden error page. The reason for this error is that all files uploaded to Amazon S3 are private by default to keep the account secure. Since we have not made our HTML and image files public yet, S3 blocks us from viewing them.
+When I first visited the bucket endpoint URL, I saw a **403 Forbidden** error page.
 
-### What I saw when I tested the endpoint
+This happened because all files uploaded to Amazon S3 are private by default to keep the account secure.
 
-I saw a 403 Forbidden error page displaying an 'Access Denied' message. This happened because Amazon S3 keeps all uploaded files private by default to maintain cloud security, so public access to our website files is blocked until we explicitly configure permissions to make them public.
+• My HTML and image files were not publicly accessible.
+
+• Amazon S3 blocked access to the website files because public permissions had not yet been configured.
+
+### What I Saw When I Tested the Endpoint.
+
+• Visited the S3 bucket website endpoint URL.
+
+• Saw a **403 Forbidden** error page displaying an **Access Denied** message.
+
+• Understood that Amazon S3 keeps uploaded files private by default to maintain cloud security.
+
+• Learned that I needed to configure the appropriate permissions to make my website files publicly accessible.
 
 ![Bucket Endpoints](https://nextwork.ai/rushikesh-kulkarni/uploads/70e2d059-31ab-5f67-8c58-f5edbd451140_22ce4daf)
 
