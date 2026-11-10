@@ -169,32 +169,57 @@ I saw a 403 Forbidden error page displaying an 'Access Denied' message. This hap
 
 ## Success!
 
-### What I did in this step
+### What I Did in This Step.
 
-In this step, I will make the uploaded website files public using object-level Access Control Lists (ACLs). I am doing this to resolve the 403 Forbidden error and allow visitors to successfully load and view my portfolio website over the internet.
+• Made the uploaded website files public using object-level Access Control Lists (ACLs).
 
-### How I resolved the 403 error
+• Configured public access to resolve the 403 Forbidden error.
 
-I resolved the 403 Forbidden error by going to the Objects tab inside my Amazon S3 bucket. I selected both the index.html file and the assets folder, clicked the Actions dropdown menu, selected Make public using ACL, and clicked Make public to confirm the changes.
+• Allowed visitors to successfully load and view my portfolio website over the internet.
 
-### ✅ What were the key services and concepts you learnt in this project?
+### How I Resolved the 403 Error.
 
-In this project, I learned how to use key cloud services and security configurations to host a web application. The core services and concepts include:
+• Opened the **Objects** tab inside my Amazon S3 bucket.
 
-Amazon S3: Storing website assets in a cloud-based object storage service and understanding the requirement for globally unique bucket naming.
+• Selected both the `index.html` file and the `assets` folder.
 
-Static Website Hosting: Configuring S3 to act as a lightweight web server and generating a public bucket website endpoint URL.
+• Clicked the **Actions** dropdown menu.
 
-AWS Regions: Learning how regional selection (such as Sydney ap-southeast-2) impacts latency, performance, and website load speeds for local users.
+• Selected **Make public using ACL**.
 
-Access Control & ACLs: Resolving 403 Forbidden errors by disabling Block Public Access settings and using object-level Access Control Lists to safely expose files to the public.
+• Clicked **Make public** to confirm the changes.
 
-S3 Bucket Policies: Writing JSON policies to implement granular security rules, utilizing explicit Deny effects, and leveraging the wildcard (\*) character to manage permissions globally or protect entire directories.
+### ✅ What Were the Key Services and Concepts You Learned in This Project?
 
-### ✅ How long did it take you to complete this project?
+In this project, I learned how to use key cloud services and security configurations to host a web application.
 
-It took me approximately 30 to 45 minutes to complete this entire project. This time was spent creating and configuring the Amazon S3 bucket, downloading and uploading my portfolio files, enabling static website hosting, resolving the 403 Forbidden error, and writing a custom JSON bucket policy for the secret mission.
+The core services and concepts include:
 
+• **Amazon S3:** Learned how to store website assets in a cloud-based object storage service and understood the requirement for globally unique bucket names.
+
+• **Static Website Hosting:** Learned how to configure S3 for static website hosting and generate a public bucket website endpoint URL.
+
+• **AWS Regions:** Learned how regional selection, such as Sydney (`ap-southeast-2`), can impact latency, performance, and website loading speeds for local users.
+
+• **Access Control and ACLs:** Learned how to resolve 403 Forbidden errors by disabling Block Public Access settings and using object-level Access Control Lists to make files publicly accessible.
+
+• **S3 Bucket Policies:** Learned how to write JSON policies to implement granular security rules using explicit Deny effects and the wildcard (`*`) character to manage permissions or protect files and directories.
+
+### ✅ How Long Did It Take You to Complete This Project?
+
+It took me approximately **30 to 45 minutes** to complete this entire project.
+
+During this time, I completed the following tasks:
+
+• Created and configured the Amazon S3 bucket.
+
+• Downloaded and uploaded my portfolio website files.
+
+• Enabled static website hosting.
+
+• Resolved the 403 Forbidden error.
+
+• Created a custom JSON bucket policy for the secret mission.
 
 ![Success!](https://nextwork.ai/rushikesh-kulkarni/uploads/70e2d059-31ab-5f67-8c58-f5edbd451140_5d4474f9)
 
