@@ -1,45 +1,89 @@
-## Introducing Today's Project!
+# ☁️ Host a Static Website on Amazon S3.
 
-### Project overview
+**Project by:** Rushikesh Kulkarni.  
+**Date:** November 2026.  
+**AWS Service:** Amazon S3.  
+**Project Type:** Cloud Computing | Static Website Hosting.
 
-Today, I am here to host a static website on AWS using Amazon S3. I will create a globally unique S3 bucket, upload my website files, configure static website hosting, and make the objects public using ACLs so that anyone on the internet can access my website.
+---
 
-### Tools and concepts
+## 📌 1. Project Overview.
 
-During this project, I gained hands-on experience with the following key cloud services and technical concepts:
+In this hands-on project, I hosted a static website using **Amazon Simple Storage Service (Amazon S3)**.
 
-Amazon S3: Understanding how cloud-based object storage works, creating an S3 bucket, and the absolute requirement for bucket names to be globally unique.
+The main objective was to create an S3 bucket, upload website files, configure static website hosting, and make the website publicly accessible through an S3 website endpoint.
 
-Static Website Hosting: Setting up an S3 bucket to work as a web server to generate a unique, public website endpoint URL.
+Throughout this project, I gained practical experience with AWS storage, website hosting, access permissions, and bucket security policies.
 
-AWS Regions: Learning how choosing a local region, like Sydney (ap-southeast-2), helps reduce latency and increases website load speed.
+## 🛠️ 2. Tools and Technologies.
 
-Permissions & ACLs: Managing file-level security, resolving 403 Forbidden errors, and adjusting Block Public Access settings to safely make assets public.
+The following AWS services and concepts were used in this project.
 
-S3 Bucket Policies: Writing JSON policies to enforce advanced security rules, such as using an explicit Deny rule and wildcard (\*) elements to safeguard core website files.
+• **Amazon S3:** Used to store website files and assets in cloud-based object storage.
 
-### Time, challenges, and wins
+• **Static Website Hosting:** Configured an S3 bucket to host a static website and generate a public website endpoint.
 
-It took me approximately 30 to 45 minutes to complete this entire project. During this time, I successfully created an S3 bucket, uploaded my website files, enabled static website hosting, resolved the 403 Forbidden error using ACLs, and configured a custom JSON bucket policy for the secret security mission.
+• **AWS Regions:** Used the Asia Pacific (Sydney) region (`ap-southeast-2`) for the S3 bucket.
 
+• **Access Control Lists (ACLs):** Managed object-level permissions to make website files publicly accessible.
 
-## How I Set Up an S3 Bucket
+• **Block Public Access:** Configured public access settings to allow visitors to access the website.
 
-### What I did in this step
+• **S3 Bucket Policies:** Created a custom JSON bucket policy using an explicit Deny rule to protect important website files.
 
-"In this step, I will open Amazon and create an S3 bucket as a storage container so I can start storing my static website files in the cloud.
+## ⏱️ 3. Project Duration and Achievements.
 
-### How long it took to create the bucket
+**Total time taken:** Approximately 30–45 minutes.
 
-Creating an S3 bucIt took only a few seconds (under 10 seconds) to create the S3 bucket. Once I clicked the create button, AWS provisioned and made the storage space active almost instantly.
+During this project, I successfully completed the following tasks.
 
-### Region selection
+• Created a globally unique Amazon S3 bucket.
 
-I was selected the default Asia Pacific (Sydney) ap-southeast-2 AWS Region because it was automatically selected as the default region for my account when I created my bucket.
+• Uploaded HTML files and website assets.
 
-### Understanding bucket name uniqueness
+• Enabled static website hosting.
 
-It means that no two  in the entire world can share the exact same name, across any  or region. Because each bucket is assigned a public website address, the name must be  to prevent domain name conflicts.
+• Configured object-level permissions using ACLs.
+
+• Identified and resolved a 403 Forbidden error.
+
+• Created a custom S3 bucket policy.
+
+• Tested the bucket policy to verify file deletion protection.
+
+## 🚀 4. Creating an Amazon S3 Bucket.
+
+### What I Did.
+
+• Opened the AWS Management Console.
+
+• Navigated to the Amazon S3 service.
+
+• Created a new S3 bucket to use as cloud storage for my static website files.
+
+### Time Taken.
+
+Creating the bucket took less than 10 seconds. AWS provisioned the storage space almost immediately after I submitted the configuration.
+
+### AWS Region Selection.
+
+• Selected the **Asia Pacific (Sydney)** region.
+
+• Used the region code `ap-southeast-2`.
+
+• Kept the default region selected for my account during bucket creation.
+
+### Understanding Bucket Name Uniqueness.
+
+• Learned that Amazon S3 bucket names must be globally unique across AWS accounts and Regions.
+
+• Understood that each bucket requires a unique name.
+
+• Learned that a bucket can be accessed through its corresponding S3 endpoints.
+
+---
+
+**Key Learning:** I learned how to create an S3 bucket, select an AWS Region, and understand the importance of globally unique bucket names.
 
 ![How I Set Up an S3 Bucket](https://nextwork.ai/rushikesh-kulkarni/uploads/70e2d059-31ab-5f67-8c58-f5edbd451140_ba6d42ad)
 
