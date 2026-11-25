@@ -59,7 +59,7 @@ I created an S3 bucket, uploaded website files, enabled static website hosting, 
 - Hosting static websites using Amazon S3.
 - Understanding S3 permissions and public access.
 - Working with ACLs and bucket policies.
-- Troubleshooting 403 Forbidden errors.
+- Troubleshooting 403 Forbidden errors. 
 - Understanding explicit Deny rules in resource policies.
 
 ## 👨‍💻 About Me
