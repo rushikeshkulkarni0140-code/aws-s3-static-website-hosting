@@ -41,7 +41,7 @@ I created an S3 bucket, uploaded website files, enabled static website hosting, 
 | 02 | Website Files Upload | [View Screenshot](04-s3-website-files-upload.png.png) |
 | 03 | Static Website Hosting Configuration | [View Screenshot](05-s3-static-website-hosting.png.png) |
 | 04 | 403 Forbidden Error | [View Screenshot](06-s3-403-forbidden-error.png.png) |
-| 05 | Successful Website Deployment | [View Screenshot](screenshots/05-s3-website-deployment-success.png) |
+| 05 | Successful Website Deployment | [View Screenshot](07-s3-website-deployment.png.png) |
 
 ## 🐛 Challenge & Troubleshooting
 
