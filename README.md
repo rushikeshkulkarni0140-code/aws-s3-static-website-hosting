@@ -1,4 +1,4 @@
-# ☁️ AWS S3 Static Website Hosting – Cloud Portfolio
+# ☁️ AWS S3 Static Website Hosting – Cloud Portfolio 
 
 ## 📌 Project Overview
 
